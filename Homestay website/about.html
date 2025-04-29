@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mahi Homestay - Book Your Stay</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.5/dist/yeti/bootstrap.min.css" />
+
+  <style>
+    body {
+      background-color: brown;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-style: italic;
+      color: aqua;
+    }
+
+    .navbar-brand {
+      font-size: 28px;
+      color: red;
+      font-style: italic;
+    }
+
+    footer {
+      background-color: #343a40;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    .section {
+      background-color: #fff;
+      color: #333;
+      padding: 40px 20px;
+      margin: 30px auto;
+      border-radius: 10px;
+      max-width: 1000px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    }
+
+    .section h2 {
+      color: brown;
+      margin-bottom: 20px;
+    }
+
+    .facilities-list {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
+    .owner-photo, .co-owner-photo {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+
+    .co-owner-box {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    .co-owner-card {
+      text-align: center;
+      max-width: 200px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- First Nav -->
+  <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+    <img src="mahadev-text-image.png" style="height: 9%; width: 9%;" alt="Logo">
+    <p style="color:rgb(216, 141, 141); font-size: 30px; margin-top: 15px; padding-right: 10%;"><strong>Mahi Home Stay</strong></p>
+    <button type="button" class="btn-close" disabled aria-label="Close" style="margin-right: 20px;"></button>
+  </nav>
+
+  <!-- Second Nav -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Mahi Home Stay</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="padding-left: 130px; font-size: 20px; gap: 35px;">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link active" href="menu.html">Menu</a></li>
+          <li class="nav-item"><a class="nav-link active" href="blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link active" href="visit.html">Visit Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Owner Introduction -->
+  <div class="section text-center">
+    <img src="WhatsApp Image 2025-04-17 at 22.54.29_09f50a18.jpg" alt="Owner" class="owner-photo">
+    <h2>Meet the Owner</h2>
+    <p>Hello! I’m <strong>Manish Nigam</strong>, the proud owner of <strong>Mahi Homestay</strong>. I’ve created this space with love and dedication to ensure every guest feels like family. Whether you're here for a weekend escape or a longer retreat, I’ll personally ensure your stay is unforgettable.</p>
+  </div>
+
+  <!-- Co-Owners Section -->
+  <div class="section text-center">
+    <h2>Our Co-Owners</h2>
+    <div class="co-owner-box">
+      <div class="co-owner-card">
+        <img src="WhatsApp Image 2025-04-17 at 23.13.37_01bb9afb.jpg" alt="Co-Owner 1" class="co-owner-photo">
+        <h5><strong>Shrey Nigam</strong></h5>
+        <p>Expert in guest hospitality & local travel guide.</p>
+      </div>
+      <div class="co-owner-card">
+        <img src="WhatsApp Image 2025-04-17 at 23.13.38_8697d7ff.jpg" alt="Co-Owner 2" class="co-owner-photo">
+        <h5><strong>Shorya Nigam</strong></h5>
+        <p>Manages booking operations & guest feedback.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- About the Place -->
+  <div class="section">
+    <h2>About the Place</h2>
+    <p>Mahi Homestay is nestled in the <strong>Ujjain</strong> surrounded by Shipra River. The city is famous for its devotion towards god where many temples are situated. The most famous and religious place <strong>The Mahakal Temple</strong> is situated in the heart of the city. Designed to blend traditional hospitality with modern comfort, our homestay offers a peaceful retreat from the hustle of busy life. Enjoy breathtaking views, home-cooked meals, and personalized service all under one roof.</p>
+  </div>
+
+  <!-- Facilities Offered -->
+  <div class="section">
+    <h2>Facilities</h2>
+    <ul class="facilities-list">
+      <li>Spacious AC & Non-AC Rooms</li>
+      <li>Free Wi-Fi & TV</li>
+      <li>Home-cooked meals (Veg/Non-Veg)</li>
+      <li>Room Booking with Date Selection</li>
+      <li>On-site Parking & 24/7 Security</li>
+      <li>Hot & Cold Water Availability</li>
+      <li>Garden Sit-out Area & Bonfire Setup</li>
+      <li>Online/Offline Payment Options</li>
+      <li>Review & Feedback System</li>
+    </ul>
+  </div>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Mahi Homestay. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap Bundle JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

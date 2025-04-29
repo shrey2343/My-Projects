@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background: #f8f7f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-container {
+    width: 100%;
+    max-width: 420px;
+    padding: 20px;
+  }
+  
+  .login-box {
+    background: white;
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  .kfc-logo {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .heading {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #1a1a1a;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: left;
+  }
+  
+  .phone-input {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .phone-input select,
+  .phone-input input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    flex: 1;
+  }
+  
+  .phone-input select {
+    max-width: 80px;
+  }
+  .name-input input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    flex: 1;
+  }
+  
+  .phone-input select {
+    max-width: 80px;
+  }
+  
+  .login-form button {
+    background-color: #e4002b;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .login-form button:hover {
+    background-color: #c10026;
+  }
+  
+  .terms-check {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    font-size: 13px;
+    color: #444;
+  }
+  
+  .terms-check a {
+    color: #e4002b;
+    text-decoration: none;
+  }
+  
+  .terms-check input {
+    margin-top: 4px;
+  }
+  
+  @media (max-width: 480px) {
+    .login-box {
+      padding: 20px;
+    }
+  
+    .phone-input {
+      flex-direction: column;
+    }
+  
+    .phone-input select {
+      max-width: 100%;
+    }
+  }
+
+  .register-input{
+    text-align: center;
+    font-style: bold;
+    font-size: 20px;
+    color: white;
+    background-color:rgb(212, 41, 41);
+    padding: 5px;
+    font-size: 18px;
+    border: 1px solid #c10026;
+    border-radius: 8px;
+    flex: 1;
+  }
+
+  
